@@ -1,0 +1,82 @@
+.game {
+    box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+    border-radius: 14px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+}
+
+.game .heading {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d1d1d1;
+    align-items: center;
+}
+
+.game .heading .name {
+    font-size: 24px;
+}
+
+.game .score-board {
+    display: flex;
+    background: #004593;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.game .score-board .item {
+    padding: 0 5px;
+    border-right: 1px solid #d1d1d1;
+}
+
+.game .score-board .item:last-child {
+    border-right: 0;
+}
+
+.game .main .input-field {
+    margin-top: 10px;
+}
+
+.game .input-field select {
+    border: 1px solid #345678;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.game .board {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game .board .tile {
+    width: 50px;
+    height: 50px;
+    background: #d3d3d3;
+    border: 1px solid #fff;
+}
+
+.game .board .tile.active {
+    background: #32cd32;
+}
+
+.game .main .btn-conatiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game .main .btn-conatiner button {
+    background: #fff;
+    border: 1px solid #345678;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 10px;
+}

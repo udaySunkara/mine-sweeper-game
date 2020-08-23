@@ -1,0 +1,23 @@
+{
+  "name": "mine-sweeper-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udaySunkara/mine-sweeper-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udaySunkara/mine-sweeper-game/issues"
+  },
+  "homepage": "https://github.com/udaySunkara/mine-sweeper-game#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

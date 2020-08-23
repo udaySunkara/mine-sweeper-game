@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body>
+    <div class="game">
+        <div class="heading">
+            <div class="name">Mine sweeper</div>
+            <div class="score-board">
+                <div class="item">
+                    Score: <span class="score-js">0</span>
+                </div>
+                <div class="item">
+                    High Score: <span class="high-score-js">0</span>
+                </div>
+                <div class="item">
+                    Timer: <span class="timer-js">120</span>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="input-field">
+                <label for="game-level">Please select the level</label>
+                <select name="game-level" id="game-level">
+                    <option value="">Select level</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="board game-board-js"></div>
+            <div class="btn-conatiner btn-conatiner-js"></div>
+        </div>
+    </div>
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>
